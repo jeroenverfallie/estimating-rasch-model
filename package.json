@@ -1,0 +1,23 @@
+{
+  "name": "Estimating_Rasch-Model",
+  "version": "1.0.0",
+  "description": "R functions and js code to estimate the Rasch/Bradley-Terry-Luce parameters using conditional maximum likelihood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanVerhavert/Estimating_Rasch-Model.git"
+  },
+  "author": "San Verhavert",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/SanVerhavert/Estimating_Rasch-Model/issues"
+  },
+  "homepage": "https://github.com/SanVerhavert/Estimating_Rasch-Model",
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "math": "0.0.3"
+  }
+}
