@@ -2,7 +2,7 @@
 #   Programmed By: San Verhavert                                               #
 #                                                                              #
 #   Details:
-#     estimateAbility and iterativeML estimate the abilities from the BTL model     #
+#     estimateAbility and iterativeML estimate the abilities from the BTL model#
 #         using Newtons method                                                 #
 #       script_list or scripts = a list with all scripts in the assessment     #
 #                                 and their opponent and has the following     #
@@ -36,16 +36,21 @@ RaschProb <- function(a, b) #a=ability, b=difficulty
 
 iterativeML <- function(scripts, numScripts, data, abilit, variabName, counter)
 {
-  zeroes <- data.frame(Script=0, trueScore=0, seTrueScore=0)
   origAbilit <- abilit # duplicate ability dataframe so we use the estimates from the previous iteration
   
-  for(j in 1:nscripts)
+  for(j in 1:numScripts)
   {
     script <- scripts[[j]]$script # save script to estimate ability score for
     opponents <- scripts[[j]]$opponents # save opponents
     
     scriptTrueScore <- origAbilit$trueScore[origAbilit$Script==script] # save score of script estimated in previous iteration
-    scriptObsevedScore <- sum(data$Score[data$Script1==script]) # save observed score of script = sum of judgments (1 or 0)
+    # calculate observed score:  sum of all comparisons contaning this script
+    tempScoreA <- sum(data$Score[data$Script1==script]) # sum of wins of left where left is script
+      # sum of wins of right when right is script= absolute value of (left wins-1)
+    RWins <- data$Score[data$Script2==script]
+    Rwins <- abs(RWins-1)
+    tempScoreB <- sum(Rwins)
+    scriptObsevedScore <- sum(tempScoreA+tempScoreB)
     
     scriptExpectScore=0
     scriptInfo=0
@@ -59,6 +64,7 @@ iterativeML <- function(scripts, numScripts, data, abilit, variabName, counter)
       scriptInfo <- scriptInfo +  RaschProb(scriptTrueScore, oppoTrueScore)*
                       (1-(RaschProb(scriptTrueScore, oppoTrueScore))) # calculate fischer information = sum(p*(1-p))
     }
+    rm(k)
     
     if(counter>0) # as long last iteration has not been completed
     {
@@ -70,15 +76,18 @@ iterativeML <- function(scripts, numScripts, data, abilit, variabName, counter)
     {
       scriptSeScore <- 1/sqrt(scriptInfo) # calculate se
       abilit$seTrueScore[abilit$Script==script] <- scriptSeScore # save se
+      #remove all winning and all losing script from abilit
     }
+
   }
-   
+  rm(j)
+  
   assign(variabName, abilit, envir=.GlobalEnv) #store new estimates in original data frame
   return(abilit) #return estimates for further use
   
 }
 
-estimateAbility <- function(script_list, totScripts, data, abil, varName, iters)
+estimateAbility <- function(script_list, totScripts, data, refCat=NA, abil, varName, iters)
 {
   # before first iteration set estimated score and se to 0 if not 0
   for(i in 1:length(abil$trueScore))
@@ -93,12 +102,21 @@ estimateAbility <- function(script_list, totScripts, data, abil, varName, iters)
       abil$seTrueScore[i]=0
     }
   }
+  rm(i)
   
   assign(varName, abil, envir=.GlobalEnv) # store values in original dataframe
-
+  
+  if(!is.na(refCat))
+  {
+    IdxRefCat <- which(abil$Script == refCat)  # determine index of reference category
+    script_list[[IdxRefCat]]<-NULL # remove reference category from script_list
+    totScripts = totScripts-1 # subtract 1 from number of scripts (to compensate for reference category)
+  }
+  
   for(i in iters:0) # do estimates for "iters" times
   {
     cat(i, "\n")
-    abil <- iternativeML(script_list, totScripts, data, abil, varName, i)
+    abil <- iterativeML(script_list, totScripts, data, abil, varName, i)
   }
+  rm(i)
 }
