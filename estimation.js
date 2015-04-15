@@ -16,13 +16,10 @@ function restructure(data){
     var reData = [];
 
     _.forEach(data, function(D){       // for each object in data
-        var tempA = D.A;
-        var tempB = D.B;
-        var tempScore = (D.selected==D.A)?1:0;
         reData.push({            //     add a new object at the end of the array restrData.push({
-            A:tempA,
-            B:tempB,
-            score:tempScore      // if selected=A then 1 else (if selected=B) 0
+            A:D.A,
+            B:D.B,
+            score:(D.selected==D.A)?1:0      // if selected=A then 1 else (if selected=B) 0
         }); //end .push
     }); //end .forEach
 
