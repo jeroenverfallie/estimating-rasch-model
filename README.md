@@ -15,4 +15,4 @@ The estimateCJ and CML functions are the translation of the [NoMoreMarking ltd.]
 ConvertData function is to convert the data that the [D-PAC](https://github.com/d-pac) tool provides to data the estimateCJ and CML functions can
 handle.
 
-Stats.js contains functions to calculate the Rasch probability and the Fischer Information.
+raschStats.js contains functions to calculate the Rasch probability and the Fischer Information.
