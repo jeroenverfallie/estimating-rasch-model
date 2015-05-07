@@ -18,7 +18,6 @@ var fs = require('fs');
 var Representation = require('./Representation_scenario2');
 var Comparison = require('./Comparison_scenario2');
 
-
 est.estimateCJ(Comparison, Representation);
 
 var ReprString = JSON.stringify(Representation);
