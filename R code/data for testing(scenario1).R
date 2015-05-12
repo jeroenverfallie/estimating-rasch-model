@@ -4,7 +4,7 @@ library(rjson)
 options(stringsAsFactors=F)
 
 ### set up ###
-Script_scores <- read.table(" ranking_estimates_A1_rand.txt", 
+Script_scores <- read.table("ranking_estimates_A1.txt", 
                             header=T, sep="\t", dec=".")
 
 Script_scores$representation <- as.character(Script_scores$representation)
@@ -14,7 +14,7 @@ refcate <- Script_scores$representation[which(Script_scores$ability==0)]
 nscripts=length(Script_scores$representation)
 
 Data <- read.table("Data.csv",
-                   header=T, row.names=1, sep=",", quote="\"", dec=".",
+                   header=T, sep=",", quote="\"", dec=".",
                    encoding="latin1")
 
 # make script list
@@ -198,3 +198,7 @@ all.equal(Ability, Abil)
 #spearman rank order corr
 all_score <- merge(Ability[,1:2], Abil[,1:2], by="representation")
 cor(all_score[,2], all_score[,3], method="spearman")
+
+#### clear all ####
+rm(list=ls())
+cat("\014")
