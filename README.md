@@ -6,10 +6,8 @@ This procedure was initially developed by Rasch (1960) and implemented by Pollit
 
 Both Scripts were based on the code of [NoMoreMarking ltd.](https://github.com/NoMoreMarking/cj).
 
-the R script "estimation test" is for a sanity check of the algorithm. It works quite fine.
-
 The estimation.js is tested in the estimation.test.js in conjunction with the "data for testing.R" file. The estimation
-is working good for now
+is working good.
 
 The estimateCJ and CML functions are the translation of the [NoMoreMarking ltd.](https://github.com/NoMoreMarking/cj)algorithms for use in the [D-PAC](https://github.com/d-pac) tool. And the
 ConvertData function is to convert the data that the [D-PAC](https://github.com/d-pac) tool provides to data the estimateCJ and CML functions can
