@@ -27,8 +27,7 @@ for(i in 1:nscripts)
                        ability= list(
                          value=0,
                          se= 0),
-                       compared=NULL,
-                       comparedNum=0)
+                       compared=NULL)
 }
 rm(i)
 
@@ -42,14 +41,12 @@ for(i in 1:length(Data$left.representation))
     {
       Representation[[j]]$compared <- append(Representation[[j]]$compared,
                                              Data$right.representation[i])
-      Representation[[j]]$comparedNum <- Representation[[j]]$comparedNum +1
     }
     
     if(Representation[[j]]$id==Data$right.representation[i])
     {
       Representation[[j]]$compared <- append(Representation[[j]]$compared,
                                              Data$left.representation[i])
-      Representation[[j]]$comparedNum <- Representation[[j]]$comparedNum +1
     }
   }
   
@@ -71,8 +68,8 @@ rm(i,j)
 RepresCode <- toJSON(Representation)
 CompCode <- toJSON(Comparison)
 
-write(RepresCode, file="Representation.JSON", sep="")
-write(CompCode, file="Comparison.JSON",sep="")
+write(RepresCode, file="Representation_scenario1.JSON", sep="")
+write(CompCode, file="Comparison_scenario1.JSON",sep="")
 
 rm(CompCode, Comparison, RepresCode, Representation)
 ################################################################################

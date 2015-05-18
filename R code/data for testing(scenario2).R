@@ -228,12 +228,11 @@ for(i in 1:nscripts)
 {
   scrIdx <- which(Scripts[[i]]$script == Script_scores$Script)
   Representation[[i]] <- list(id=Scripts[[i]]$script,
-                       type=Script_scores$State_of_Script[scrIdx],
+                       rankType=Script_scores$State_of_Script[scrIdx],
                        ability= list(
                          value=Script_scores$trueScore[scrIdx],
                          se= Script_scores$seTrueScore[scrIdx]),
-                       compared=Scripts[[i]]$opponents,
-                       comparedNum=Scripts[[i]]$opponentNum)
+                       compared=Scripts[[i]]$opponents)
 }
 rm(i)
 
