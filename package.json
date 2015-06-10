@@ -11,13 +11,13 @@
     "url": "https://github.com/d-pac/estimating-rasch-model.git"
   },
   "author": "San Verhavert",
-  "license": "GPL3",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/d-pac/estimating-rasch-model/issues"
   },
   "homepage": "https://github.com/d-pac/estimating-rasch-model",
   "dependencies": {
-    "lodash": "^3.6.0",
+    "lodash": "^3.9.3",
     "math": "0.0.3"
   },
   "files": [
