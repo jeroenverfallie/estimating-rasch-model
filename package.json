@@ -22,5 +22,8 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git"
+  }
 }
