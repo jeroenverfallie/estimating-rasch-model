@@ -4,7 +4,7 @@
   "description": "Estimate the Rasch/Bradley-Terry-Luce parameters using conditional maximum likelihood",
   "main": "lib/estimation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
     "lib"
   ],
   "devDependencies": {
-    "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git"
+    "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git",
+    "mocha": "^2.3.3",
+    "must": "^0.13.1",
+    "require-directory": "^2.1.1"
   }
 }
