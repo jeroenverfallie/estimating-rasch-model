@@ -1,15 +1,11 @@
 'use strict';
 var Benchmark = require( 'benchmark' );
-var fs = require( 'fs' );
-var path = require( 'path' );
-
-var comparisons = JSON.parse( fs.readFileSync( path.resolve( __dirname, '../testing/Comparison_scenario2.JSON' ), 'utf8' ) );
-var representations = JSON.parse( fs.readFileSync( path.resolve( __dirname, '../testing/Representation_scenario2.JSON' ), 'utf8' ) );
+var fixtures = require( '../test/fixtures' );
 var subject = require( '../lib/estimation' );
 var suite = new Benchmark.Suite;
 
 suite.add( 'estimateCJ', function(){
-    subject.estimateCJ( comparisons, representations );
+    subject.estimateCJ( fixtures.comparisons, fixtures.representations );
   } )
   .on( 'error', function( event ){
     console.log( 'ERROR', event.target.error );
