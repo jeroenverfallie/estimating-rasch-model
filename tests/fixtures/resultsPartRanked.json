@@ -1,0 +1,923 @@
+[
+    {
+        "_id": "Script1",
+        "rankType": "ranked",
+        "ability": {
+            "value": -4.8608,
+            "se": 1.1934
+        }
+    },
+    {
+        "_id": "Script2",
+        "rankType": "ranked",
+        "ability": {
+            "value": -4.8159,
+            "se": 1.2927
+        }
+    },
+    {
+        "_id": "Script3",
+        "rankType": "ranked",
+        "ability": {
+            "value": -4.2687,
+            "se": 1.1098
+        }
+    },
+    {
+        "_id": "Script4",
+        "rankType": "ranked",
+        "ability": {
+            "value": -4.052,
+            "se": 1.1019
+        }
+    },
+    {
+        "_id": "Script5",
+        "rankType": "ranked",
+        "ability": {
+            "value": -4.0297,
+            "se": 1.1245
+        }
+    },
+    {
+        "_id": "Script6",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.825,
+            "se": 1.0137
+        }
+    },
+    {
+        "_id": "Script7",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.6836,
+            "se": 1.1169
+        }
+    },
+    {
+        "_id": "Script8",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.6058,
+            "se": 1.0154
+        }
+    },
+    {
+        "_id": "Script9",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.5927,
+            "se": 1.0585
+        }
+    },
+    {
+        "_id": "Script10",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.4837,
+            "se": 1.0777
+        }
+    },
+    {
+        "_id": "Script11",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.3972,
+            "se": 1.0136
+        }
+    },
+    {
+        "_id": "Script12",
+        "rankType": "to rank",
+        "ability": {
+            "value": -2.0431,
+            "se": 0.7749
+        }
+    },
+    {
+        "_id": "Script13",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.2105,
+            "se": 0.9721
+        }
+    },
+    {
+        "_id": "Script14",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.1806,
+            "se": 0.9577
+        }
+    },
+    {
+        "_id": "Script15",
+        "rankType": "to rank",
+        "ability": {
+            "value": -3.3027,
+            "se": 0.8099
+        }
+    },
+    {
+        "_id": "Script16",
+        "rankType": "ranked",
+        "ability": {
+            "value": -3.0509,
+            "se": 0.966
+        }
+    },
+    {
+        "_id": "Script17",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.9815,
+            "se": 0.8834
+        }
+    },
+    {
+        "_id": "Script18",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.6646,
+            "se": 0.8759
+        }
+    },
+    {
+        "_id": "Script19",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.5563,
+            "se": 0.9063
+        }
+    },
+    {
+        "_id": "Script20",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.4699,
+            "se": 0.882
+        }
+    },
+    {
+        "_id": "Script21",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.4186,
+            "se": 0.8445
+        }
+    },
+    {
+        "_id": "Script22",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.3576,
+            "se": 0.8796
+        }
+    },
+    {
+        "_id": "Script23",
+        "rankType": "benchmark",
+        "ability": {
+            "value": -2.2906,
+            "se": 0.8949
+        }
+    },
+    {
+        "_id": "Script24",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.2096,
+            "se": 0.8692
+        }
+    },
+    {
+        "_id": "Script25",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.5994,
+            "se": 0.7344
+        }
+    },
+    {
+        "_id": "Script26",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.1916,
+            "se": 0.8445
+        }
+    },
+    {
+        "_id": "Script27",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.147,
+            "se": 0.8546
+        }
+    },
+    {
+        "_id": "Script28",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.1168,
+            "se": 0.8426
+        }
+    },
+    {
+        "_id": "Script29",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.6592,
+            "se": 0.6936
+        }
+    },
+    {
+        "_id": "Script30",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.0492,
+            "se": 0.8783
+        }
+    },
+    {
+        "_id": "Script31",
+        "rankType": "ranked",
+        "ability": {
+            "value": -2.0288,
+            "se": 0.8562
+        }
+    },
+    {
+        "_id": "Script32",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.9543,
+            "se": 0.8374
+        }
+    },
+    {
+        "_id": "Script33",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.9429,
+            "se": 0.8861
+        }
+    },
+    {
+        "_id": "Script34",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.9258,
+            "se": 0.8693
+        }
+    },
+    {
+        "_id": "Script35",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.9102,
+            "se": 0.8204
+        }
+    },
+    {
+        "_id": "Script36",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.9087,
+            "se": 0.8674
+        }
+    },
+    {
+        "_id": "Script37",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.823,
+            "se": 0.839
+        }
+    },
+    {
+        "_id": "Script38",
+        "rankType": "to rank",
+        "ability": {
+            "value": -2.0219,
+            "se": 0.7797
+        }
+    },
+    {
+        "_id": "Script39",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.7797,
+            "se": 0.8503
+        }
+    },
+    {
+        "_id": "Script40",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.7733,
+            "se": 0.8717
+        }
+    },
+    {
+        "_id": "Script41",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.7613,
+            "se": 0.8103
+        }
+    },
+    {
+        "_id": "Script42",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.3272,
+            "se": 0.7775
+        }
+    },
+    {
+        "_id": "Script43",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.6726,
+            "se": 0.8202
+        }
+    },
+    {
+        "_id": "Script44",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.6278,
+            "se": 0.825
+        }
+    },
+    {
+        "_id": "Script45",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.6162,
+            "se": 0.8744
+        }
+    },
+    {
+        "_id": "Script46",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.6106,
+            "se": 0.8701
+        }
+    },
+    {
+        "_id": "Script47",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.5871,
+            "se": 0.8095
+        }
+    },
+    {
+        "_id": "Script48",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.5708,
+            "se": 0.8074
+        }
+    },
+    {
+        "_id": "Script49",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.5695,
+            "se": 0.8606
+        }
+    },
+    {
+        "_id": "Script50",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.5652,
+            "se": 0.9072
+        }
+    },
+    {
+        "_id": "Script51",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.556,
+            "se": 0.8217
+        }
+    },
+    {
+        "_id": "Script52",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.526,
+            "se": 0.8475
+        }
+    },
+    {
+        "_id": "Script53",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.4191,
+            "se": 0.8983
+        }
+    },
+    {
+        "_id": "Script54",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.4412,
+            "se": 0.7062
+        }
+    },
+    {
+        "_id": "Script55",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.3856,
+            "se": 0.8361
+        }
+    },
+    {
+        "_id": "Script56",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.3519,
+            "se": 0.8159
+        }
+    },
+    {
+        "_id": "Script57",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.3409,
+            "se": 0.8542
+        }
+    },
+    {
+        "_id": "Script58",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.2709,
+            "se": 0.8708
+        }
+    },
+    {
+        "_id": "Script59",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.2271,
+            "se": 0.8653
+        }
+    },
+    {
+        "_id": "Script60",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.2214,
+            "se": 0.8616
+        }
+    },
+    {
+        "_id": "Script61",
+        "rankType": "to rank",
+        "ability": {
+            "value": -3.3932,
+            "se": 0.8123
+        }
+    },
+    {
+        "_id": "Script62",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.0311,
+            "se": 0.8488
+        }
+    },
+    {
+        "_id": "Script63",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.022,
+            "se": 0.7935
+        }
+    },
+    {
+        "_id": "Script64",
+        "rankType": "ranked",
+        "ability": {
+            "value": -1.0166,
+            "se": 0.833
+        }
+    },
+    {
+        "_id": "Script65",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.9634,
+            "se": 0.8805
+        }
+    },
+    {
+        "_id": "Script66",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.8783,
+            "se": 0.8325
+        }
+    },
+    {
+        "_id": "Script67",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.8265,
+            "se": 0.8485
+        }
+    },
+    {
+        "_id": "Script68",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.8149,
+            "se": 0.8739
+        }
+    },
+    {
+        "_id": "Script69",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.8132,
+            "se": 0.8079
+        }
+    },
+    {
+        "_id": "Script70",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7989,
+            "se": 0.9072
+        }
+    },
+    {
+        "_id": "Script71",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7859,
+            "se": 0.8879
+        }
+    },
+    {
+        "_id": "Script72",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.775,
+            "se": 0.7949
+        }
+    },
+    {
+        "_id": "Script73",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7507,
+            "se": 0.8391
+        }
+    },
+    {
+        "_id": "Script74",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7451,
+            "se": 0.8231
+        }
+    },
+    {
+        "_id": "Script75",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7325,
+            "se": 0.865
+        }
+    },
+    {
+        "_id": "Script76",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.7048,
+            "se": 0.8608
+        }
+    },
+    {
+        "_id": "Script77",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.6747,
+            "se": 0.8317
+        }
+    },
+    {
+        "_id": "Script78",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.6003,
+            "se": 0.8533
+        }
+    },
+    {
+        "_id": "Script79",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.5923,
+            "se": 0.8672
+        }
+    },
+    {
+        "_id": "Script80",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.5808,
+            "se": 0.8694
+        }
+    },
+    {
+        "_id": "Script81",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.5756,
+            "se": 0.8177
+        }
+    },
+    {
+        "_id": "Script82",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.5717,
+            "se": 0.8142
+        }
+    },
+    {
+        "_id": "Script83",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.4877,
+            "se": 0.8781
+        }
+    },
+    {
+        "_id": "Script84",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.3162,
+            "se": 0.8485
+        }
+    },
+    {
+        "_id": "Script85",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.3158,
+            "se": 0.8893
+        }
+    },
+    {
+        "_id": "Script86",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.1856,
+            "se": 0.8523
+        }
+    },
+    {
+        "_id": "Script87",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.1799,
+            "se": 0.9233
+        }
+    },
+    {
+        "_id": "Script88",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.1576,
+            "se": 0.8856
+        }
+    },
+    {
+        "_id": "Script89",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.0895,
+            "se": 0.8549
+        }
+    },
+    {
+        "_id": "Script90",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.0885,
+            "se": 0.8343
+        }
+    },
+    {
+        "_id": "Script91",
+        "rankType": "ranked",
+        "ability": {
+            "value": -0.076,
+            "se": 0.8795
+        }
+    },
+    {
+        "_id": "Script92",
+        "rankType": "benchmark",
+        "ability": {
+            "value": -0.0589,
+            "se": 0.8077
+        }
+    },
+    {
+        "_id": "Script93",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0,
+            "se": 0
+        }
+    },
+    {
+        "_id": "Script94",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.0024,
+            "se": 0.9037
+        }
+    },
+    {
+        "_id": "Script95",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.033,
+            "se": 0.9106
+        }
+    },
+    {
+        "_id": "Script96",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.0771,
+            "se": 0.866
+        }
+    },
+    {
+        "_id": "Script97",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.1125,
+            "se": 0.8576
+        }
+    },
+    {
+        "_id": "Script98",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.1677,
+            "se": 0.9707
+        }
+    },
+    {
+        "_id": "Script99",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.2939,
+            "se": 0.8923
+        }
+    },
+    {
+        "_id": "Script100",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.4231,
+            "se": 0.8436
+        }
+    },
+    {
+        "_id": "Script101",
+        "rankType": "to rank",
+        "ability": {
+            "value": 5.1377,
+            "se": 4.6486
+        }
+    },
+    {
+        "_id": "Script102",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.4752,
+            "se": 0.9441
+        }
+    },
+    {
+        "_id": "Script103",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.5521,
+            "se": 0.9342
+        }
+    },
+    {
+        "_id": "Script104",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.6301,
+            "se": 0.9002
+        }
+    },
+    {
+        "_id": "Script105",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.0695,
+            "se": 0.7395
+        }
+    },
+    {
+        "_id": "Script106",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.8094,
+            "se": 0.9754
+        }
+    },
+    {
+        "_id": "Script107",
+        "rankType": "ranked",
+        "ability": {
+            "value": 0.8957,
+            "se": 0.9493
+        }
+    },
+    {
+        "_id": "Script108",
+        "rankType": "ranked",
+        "ability": {
+            "value": 1.2517,
+            "se": 0.9539
+        }
+    },
+    {
+        "_id": "Script109",
+        "rankType": "ranked",
+        "ability": {
+            "value": 1.6342,
+            "se": 1.0996
+        }
+    },
+    {
+        "_id": "Script110",
+        "rankType": "ranked",
+        "ability": {
+            "value": 1.6551,
+            "se": 1.1262
+        }
+    },
+    {
+        "_id": "Script111",
+        "rankType": "ranked",
+        "ability": {
+            "value": 1.7532,
+            "se": 1.0766
+        }
+    },
+    {
+        "_id": "Script112",
+        "rankType": "ranked",
+        "ability": {
+            "value": 1.7948,
+            "se": 1.1095
+        }
+    },
+    {
+        "_id": "Script113",
+        "rankType": "ranked",
+        "ability": {
+            "value": 2.307,
+            "se": 1.458
+        }
+    },
+    {
+        "_id": "Script114",
+        "rankType": "ranked",
+        "ability": {
+            "value": 2.3405,
+            "se": 1.5361
+        }
+    },
+    {
+        "_id": "Script115",
+        "rankType": "ranked",
+        "ability": {
+            "value": 3.4415,
+            "se": 1.787
+        }
+    }
+]
+
