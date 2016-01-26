@@ -1,0 +1,1035 @@
+[
+    {
+        "_id": "Script1",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script4",
+            "Script19",
+            "Script21",
+            "Script6",
+            "Script22",
+            "Script2",
+            "Script16",
+            "Script23",
+            "Script3",
+            "Script7",
+            "Script18",
+            "Script9",
+            "Script14",
+            "Script11",
+            "Script5",
+            "Script15",
+            "Script8",
+            "Script17",
+            "Script10",
+            "Script25",
+            "Script13",
+            "Script20",
+            "Script24",
+            "Script26",
+            "Script12",
+            "Script13",
+            "Script8"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script2",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script3",
+            "Script20",
+            "Script19",
+            "Script9",
+            "Script10",
+            "Script1",
+            "Script15",
+            "Script17",
+            "Script25",
+            "Script14",
+            "Script6",
+            "Script18",
+            "Script11",
+            "Script22",
+            "Script4",
+            "Script8",
+            "Script7",
+            "Script13",
+            "Script23",
+            "Script16",
+            "Script26",
+            "Script12",
+            "Script21",
+            "Script24",
+            "Script5",
+            "Script23",
+            "Script6"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script3",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script2",
+            "Script14",
+            "Script22",
+            "Script20",
+            "Script24",
+            "Script19",
+            "Script18",
+            "Script16",
+            "Script1",
+            "Script10",
+            "Script17",
+            "Script12",
+            "Script4",
+            "Script25",
+            "Script21",
+            "Script6",
+            "Script26",
+            "Script23",
+            "Script13",
+            "Script8",
+            "Script9",
+            "Script11",
+            "Script7",
+            "Script5",
+            "Script15",
+            "Script24",
+            "Script11"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script4",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script9",
+            "Script1",
+            "Script7",
+            "Script17",
+            "Script23",
+            "Script20",
+            "Script12",
+            "Script10",
+            "Script13",
+            "Script11",
+            "Script15",
+            "Script16",
+            "Script3",
+            "Script14",
+            "Script2",
+            "Script18",
+            "Script6",
+            "Script24",
+            "Script19",
+            "Script26",
+            "Script5",
+            "Script22",
+            "Script8",
+            "Script25",
+            "Script21",
+            "Script14",
+            "Script21"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script5",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script9",
+            "Script18",
+            "Script6",
+            "Script19",
+            "Script11",
+            "Script23",
+            "Script25",
+            "Script14",
+            "Script22",
+            "Script16",
+            "Script20",
+            "Script21",
+            "Script17",
+            "Script12",
+            "Script24",
+            "Script1",
+            "Script15",
+            "Script10",
+            "Script8",
+            "Script13",
+            "Script4",
+            "Script26",
+            "Script7",
+            "Script3",
+            "Script25",
+            "Script2"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script6",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script24",
+            "Script10",
+            "Script5",
+            "Script1",
+            "Script21",
+            "Script11",
+            "Script12",
+            "Script25",
+            "Script14",
+            "Script2",
+            "Script23",
+            "Script26",
+            "Script13",
+            "Script18",
+            "Script7",
+            "Script3",
+            "Script4",
+            "Script8",
+            "Script15",
+            "Script20",
+            "Script22",
+            "Script16",
+            "Script17",
+            "Script19",
+            "Script9",
+            "Script12",
+            "Script2"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script7",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script25",
+            "Script21",
+            "Script16",
+            "Script4",
+            "Script19",
+            "Script9",
+            "Script12",
+            "Script11",
+            "Script18",
+            "Script1",
+            "Script14",
+            "Script13",
+            "Script15",
+            "Script17",
+            "Script6",
+            "Script8",
+            "Script2",
+            "Script26",
+            "Script20",
+            "Script23",
+            "Script10",
+            "Script5",
+            "Script3",
+            "Script24",
+            "Script22",
+            "Script11",
+            "Script19"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script8",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script16",
+            "Script20",
+            "Script10",
+            "Script25",
+            "Script18",
+            "Script26",
+            "Script22",
+            "Script22",
+            "Script24",
+            "Script23",
+            "Script9",
+            "Script15",
+            "Script21",
+            "Script19",
+            "Script2",
+            "Script7",
+            "Script1",
+            "Script6",
+            "Script5",
+            "Script3",
+            "Script13",
+            "Script17",
+            "Script4",
+            "Script12",
+            "Script14",
+            "Script11",
+            "Script1"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script9",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script5",
+            "Script4",
+            "Script13",
+            "Script2",
+            "Script26",
+            "Script7",
+            "Script24",
+            "Script12",
+            "Script16",
+            "Script18",
+            "Script8",
+            "Script19",
+            "Script1",
+            "Script25",
+            "Script15",
+            "Script23",
+            "Script10",
+            "Script21",
+            "Script22",
+            "Script14",
+            "Script3",
+            "Script11",
+            "Script20",
+            "Script17",
+            "Script6",
+            "Script18"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script10",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script17",
+            "Script6",
+            "Script8",
+            "Script13",
+            "Script2",
+            "Script14",
+            "Script15",
+            "Script4",
+            "Script20",
+            "Script3",
+            "Script16",
+            "Script25",
+            "Script24",
+            "Script11",
+            "Script21",
+            "Script12",
+            "Script9",
+            "Script5",
+            "Script1",
+            "Script22",
+            "Script19",
+            "Script7",
+            "Script26",
+            "Script23",
+            "Script18",
+            "Script15",
+            "Script12"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script11",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script13",
+            "Script19",
+            "Script18",
+            "Script5",
+            "Script24",
+            "Script6",
+            "Script15",
+            "Script7",
+            "Script23",
+            "Script4",
+            "Script22",
+            "Script14",
+            "Script2",
+            "Script10",
+            "Script1",
+            "Script17",
+            "Script12",
+            "Script20",
+            "Script26",
+            "Script16",
+            "Script21",
+            "Script3",
+            "Script9",
+            "Script25",
+            "Script8",
+            "Script7",
+            "Script3"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script12",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script9",
+            "Script15",
+            "Script19",
+            "Script7",
+            "Script23",
+            "Script4",
+            "Script6",
+            "Script21",
+            "Script17",
+            "Script20",
+            "Script26",
+            "Script3",
+            "Script22",
+            "Script5",
+            "Script14",
+            "Script10",
+            "Script11",
+            "Script24",
+            "Script25",
+            "Script16",
+            "Script18",
+            "Script2",
+            "Script13",
+            "Script8",
+            "Script1",
+            "Script6",
+            "Script10"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script13",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script11",
+            "Script18",
+            "Script9",
+            "Script10",
+            "Script20",
+            "Script25",
+            "Script15",
+            "Script19",
+            "Script4",
+            "Script26",
+            "Script24",
+            "Script7",
+            "Script23",
+            "Script6",
+            "Script22",
+            "Script17",
+            "Script14",
+            "Script2",
+            "Script3",
+            "Script5",
+            "Script8",
+            "Script1",
+            "Script12",
+            "Script21",
+            "Script16",
+            "Script1"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script14",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script16",
+            "Script3",
+            "Script20",
+            "Script22",
+            "Script17",
+            "Script10",
+            "Script21",
+            "Script5",
+            "Script6",
+            "Script2",
+            "Script7",
+            "Script11",
+            "Script1",
+            "Script4",
+            "Script12",
+            "Script26",
+            "Script13",
+            "Script25",
+            "Script24",
+            "Script9",
+            "Script23",
+            "Script19",
+            "Script15",
+            "Script18",
+            "Script8",
+            "Script4",
+            "Script20"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script15",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script2",
+            "Script12",
+            "Script17",
+            "Script20",
+            "Script13",
+            "Script11",
+            "Script26",
+            "Script10",
+            "Script19",
+            "Script22",
+            "Script4",
+            "Script8",
+            "Script7",
+            "Script24",
+            "Script9",
+            "Script1",
+            "Script5",
+            "Script21",
+            "Script6",
+            "Script18",
+            "Script25",
+            "Script23",
+            "Script16",
+            "Script14",
+            "Script3",
+            "Script10"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script16",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script14",
+            "Script8",
+            "Script23",
+            "Script7",
+            "Script25",
+            "Script24",
+            "Script1",
+            "Script3",
+            "Script9",
+            "Script5",
+            "Script10",
+            "Script4",
+            "Script26",
+            "Script21",
+            "Script20",
+            "Script19",
+            "Script17",
+            "Script18",
+            "Script2",
+            "Script12",
+            "Script11",
+            "Script6",
+            "Script15",
+            "Script22",
+            "Script13",
+            "Script21"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script17",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script10",
+            "Script26",
+            "Script24",
+            "Script4",
+            "Script14",
+            "Script18",
+            "Script15",
+            "Script2",
+            "Script12",
+            "Script19",
+            "Script3",
+            "Script22",
+            "Script5",
+            "Script7",
+            "Script13",
+            "Script11",
+            "Script16",
+            "Script1",
+            "Script25",
+            "Script21",
+            "Script20",
+            "Script8",
+            "Script6",
+            "Script9",
+            "Script23",
+            "Script19",
+            "Script18"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script18",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script13",
+            "Script5",
+            "Script11",
+            "Script21",
+            "Script8",
+            "Script17",
+            "Script3",
+            "Script20",
+            "Script7",
+            "Script9",
+            "Script1",
+            "Script23",
+            "Script2",
+            "Script6",
+            "Script26",
+            "Script4",
+            "Script19",
+            "Script16",
+            "Script24",
+            "Script15",
+            "Script12",
+            "Script25",
+            "Script22",
+            "Script14",
+            "Script10",
+            "Script9",
+            "Script17"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script19",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script1",
+            "Script11",
+            "Script2",
+            "Script5",
+            "Script7",
+            "Script3",
+            "Script12",
+            "Script13",
+            "Script15",
+            "Script17",
+            "Script21",
+            "Script9",
+            "Script20",
+            "Script26",
+            "Script8",
+            "Script16",
+            "Script18",
+            "Script22",
+            "Script4",
+            "Script10",
+            "Script24",
+            "Script14",
+            "Script23",
+            "Script6",
+            "Script25",
+            "Script17",
+            "Script7"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script20",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script2",
+            "Script8",
+            "Script14",
+            "Script3",
+            "Script13",
+            "Script4",
+            "Script15",
+            "Script18",
+            "Script10",
+            "Script12",
+            "Script5",
+            "Script24",
+            "Script19",
+            "Script23",
+            "Script16",
+            "Script25",
+            "Script21",
+            "Script11",
+            "Script7",
+            "Script6",
+            "Script17",
+            "Script1",
+            "Script9",
+            "Script22",
+            "Script26",
+            "Script26",
+            "Script14"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script21",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script23",
+            "Script1",
+            "Script7",
+            "Script18",
+            "Script6",
+            "Script22",
+            "Script14",
+            "Script12",
+            "Script26",
+            "Script25",
+            "Script19",
+            "Script5",
+            "Script8",
+            "Script16",
+            "Script10",
+            "Script3",
+            "Script20",
+            "Script15",
+            "Script9",
+            "Script17",
+            "Script24",
+            "Script11",
+            "Script2",
+            "Script13",
+            "Script4",
+            "Script16",
+            "Script4"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script22",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script25",
+            "Script26",
+            "Script3",
+            "Script14",
+            "Script1",
+            "Script21",
+            "Script8",
+            "Script8",
+            "Script5",
+            "Script15",
+            "Script11",
+            "Script17",
+            "Script12",
+            "Script2",
+            "Script13",
+            "Script24",
+            "Script23",
+            "Script19",
+            "Script9",
+            "Script10",
+            "Script6",
+            "Script4",
+            "Script18",
+            "Script16",
+            "Script20",
+            "Script7"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script23",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script24",
+            "Script21",
+            "Script16",
+            "Script26",
+            "Script4",
+            "Script5",
+            "Script12",
+            "Script1",
+            "Script11",
+            "Script8",
+            "Script6",
+            "Script18",
+            "Script13",
+            "Script20",
+            "Script25",
+            "Script9",
+            "Script22",
+            "Script3",
+            "Script7",
+            "Script2",
+            "Script14",
+            "Script15",
+            "Script19",
+            "Script10",
+            "Script17",
+            "Script2"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script24",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script23",
+            "Script6",
+            "Script17",
+            "Script11",
+            "Script3",
+            "Script16",
+            "Script9",
+            "Script26",
+            "Script8",
+            "Script13",
+            "Script25",
+            "Script20",
+            "Script10",
+            "Script15",
+            "Script5",
+            "Script22",
+            "Script12",
+            "Script4",
+            "Script14",
+            "Script18",
+            "Script19",
+            "Script21",
+            "Script1",
+            "Script7",
+            "Script2",
+            "Script3",
+            "Script26"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script25",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script7",
+            "Script22",
+            "Script26",
+            "Script8",
+            "Script16",
+            "Script13",
+            "Script5",
+            "Script6",
+            "Script2",
+            "Script21",
+            "Script24",
+            "Script10",
+            "Script3",
+            "Script9",
+            "Script23",
+            "Script20",
+            "Script14",
+            "Script17",
+            "Script12",
+            "Script1",
+            "Script15",
+            "Script18",
+            "Script11",
+            "Script4",
+            "Script19",
+            "Script5"
+        ],
+        "closeTo": {
+
+        }
+    },
+    {
+        "_id": "Script26",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0,
+            "se": 0
+        },
+        "compared": [
+            "Script22",
+            "Script17",
+            "Script25",
+            "Script23",
+            "Script9",
+            "Script8",
+            "Script24",
+            "Script15",
+            "Script21",
+            "Script13",
+            "Script12",
+            "Script6",
+            "Script16",
+            "Script19",
+            "Script18",
+            "Script14",
+            "Script3",
+            "Script7",
+            "Script11",
+            "Script4",
+            "Script2",
+            "Script5",
+            "Script10",
+            "Script1",
+            "Script20",
+            "Script20",
+            "Script24"
+        ],
+        "closeTo": {
+
+        }
+    }
+]
+

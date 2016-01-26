@@ -1,0 +1,211 @@
+[
+    {
+        "_id": "Script1",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.1958,
+            "se": 0.411
+        }
+    },
+    {
+        "_id": "Script2",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.1067,
+            "se": 0.4081
+        }
+    },
+    {
+        "_id": "Script3",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.7366,
+            "se": 0.4268
+        }
+    },
+    {
+        "_id": "Script4",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.4177,
+            "se": 0.4116
+        }
+    },
+    {
+        "_id": "Script5",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.2611,
+            "se": 0.4831
+        }
+    },
+    {
+        "_id": "Script6",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.4324,
+            "se": 0.4135
+        }
+    },
+    {
+        "_id": "Script7",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.2076,
+            "se": 0.4093
+        }
+    },
+    {
+        "_id": "Script8",
+        "rankType": "to rank",
+        "ability": {
+            "value": 1.5071,
+            "se": 0.5087
+        }
+    },
+    {
+        "_id": "Script9",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.023,
+            "se": 0.415
+        }
+    },
+    {
+        "_id": "Script10",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.9281,
+            "se": 0.4431
+        }
+    },
+    {
+        "_id": "Script11",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.0941,
+            "se": 0.4067
+        }
+    },
+    {
+        "_id": "Script12",
+        "rankType": "to rank",
+        "ability": {
+            "value": 1.089,
+            "se": 0.4571
+        }
+    },
+    {
+        "_id": "Script13",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.0131,
+            "se": 0.4141
+        }
+    },
+    {
+        "_id": "Script14",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.2405,
+            "se": 0.4079
+        }
+    },
+    {
+        "_id": "Script15",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.9067,
+            "se": 0.4462
+        }
+    },
+    {
+        "_id": "Script16",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.2584,
+            "se": 0.4832
+        }
+    },
+    {
+        "_id": "Script17",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.515,
+            "se": 0.4211
+        }
+    },
+    {
+        "_id": "Script18",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.7117,
+            "se": 0.4276
+        }
+    },
+    {
+        "_id": "Script19",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.8827,
+            "se": 0.4401
+        }
+    },
+    {
+        "_id": "Script20",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.2245,
+            "se": 0.4081
+        }
+    },
+    {
+        "_id": "Script21",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.3705,
+            "se": 0.4142
+        }
+    },
+    {
+        "_id": "Script22",
+        "rankType": "to rank",
+        "ability": {
+            "value": -0.6389,
+            "se": 0.4362
+        }
+    },
+    {
+        "_id": "Script23",
+        "rankType": "to rank",
+        "ability": {
+            "value": -1.0646,
+            "se": 0.461
+        }
+    },
+    {
+        "_id": "Script24",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.1113,
+            "se": 0.4066
+        }
+    },
+    {
+        "_id": "Script25",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.2832,
+            "se": 0.4208
+        }
+    },
+    {
+        "_id": "Script26",
+        "rankType": "to rank",
+        "ability": {
+            "value": 0.2283,
+            "se": 0.4076
+        }
+    }
+]
+
