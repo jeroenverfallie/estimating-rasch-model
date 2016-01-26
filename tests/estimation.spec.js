@@ -21,7 +21,7 @@ describe('estimating rasch model', function () {
             var estRepresentations;
             
             beforeEach( function(){
-                estRepresentations = _.cloneDeep(fixtures.representationsPartRanked);
+                estRepresentations = _.cloneDeep(fixtures.repsPartRanked);
             });
 
             it('should equal R generated results if all data are provided at once', function () {
