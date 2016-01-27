@@ -25,7 +25,7 @@
   ],
   "devDependencies": {
     "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git",
-    "mocha": "^2.3.3",
+    "mocha": "^2.4.4",
     "must": "^0.13.1",
     "require-directory": "^2.1.1"
   }
