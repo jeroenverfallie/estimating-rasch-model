@@ -1,3 +1,5 @@
+ [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+ 
 # Conditional estimation of Rasch model
 
 Both the R script "iterativeML" and the estimation.JS estimate the parameters the Rasch model/Bradley-Terry_Luce model with a
@@ -14,3 +16,10 @@ ConvertData function is to convert the data that the [D-PAC](https://github.com/
 handle.
 
 raschStats.js contains functions to calculate the Rasch probability and the Fischer Information.
+
+[npm-url]: https://npmjs.org/package/estimating-rasch-model
+[npm-image]: https://badge.fury.io/js/estimating-rasch-model.svg
+[travis-url]: https://travis-ci.org/d-pac/estimating-rasch-model
+[travis-image]: https://travis-ci.org/d-pac/estimating-rasch-model.svg?branch=master
+[daviddm-url]: https://david-dm.org/d-pac/estimating-rasch-model.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/d-pac/estimating-rasch-model
