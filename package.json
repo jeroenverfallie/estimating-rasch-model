@@ -18,13 +18,14 @@
   },
   "homepage": "https://github.com/d-pac/estimating-rasch-model",
   "dependencies": {
+    "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git",
     "lodash": "^4.0.1"
   },
   "files": [
     "lib"
   ],
   "devDependencies": {
-    "benchmark": "git+https://git@github.com/bestiejs/benchmark.js.git",
+    "benchmark": "^2.1.0",
     "mocha": "^2.4.4",
     "must": "^0.13.1",
     "require-directory": "^2.1.1"
