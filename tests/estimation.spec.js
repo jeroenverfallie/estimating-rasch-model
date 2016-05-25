@@ -111,5 +111,26 @@ describe('estimating rasch model', function () {
                 expect(estimatesSe).to.eql(ResultsSe);
             });
         });
+        describe('just a test', function () {
+           it('should equal R generated results', function () {
+               var ResultsValue = _.map(fixtures.Results, "ability.value");
+               var ResultsSe = _.map(fixtures.Results, "ability.se");
+               var estRepresentations = _.cloneDeep(fixtures.Representation);
+
+               expect(estRepresentations).to.not.eql(fixtures.Results);
+
+               subject.estimateCJ(fixtures.Comparison, estRepresentations);
+
+               var estimatesValue = [];
+               var estimatesSe = [];
+               _.each(estRepresentations, function (representation) {
+                   estimatesValue.push(_.round(representation.ability.value, 4));
+                   estimatesSe.push(_.round(representation.ability.se, 4));
+               });
+
+               expect(estimatesValue).to.eql(ResultsValue);
+               expect(estimatesSe).to.eql(ResultsSe);
+            }) ;
+        });
     });
 });
