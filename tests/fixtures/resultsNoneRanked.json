@@ -3,176 +3,176 @@
         "_id": "Script1",
         "rankType": "to rank",
         "ability": {
-            "value": 1.5597,
-            "se": 0.6094
+            "value": 1.9503,
+            "se": 0.6674
         }
     },
     {
         "_id": "Script2",
         "rankType": "to rank",
         "ability": {
-            "value": -1.4072,
-            "se": 0.5832
+            "value": -1.3849,
+            "se": 0.5852
         }
     },
     {
         "_id": "Script3",
         "rankType": "to rank",
         "ability": {
-            "value": 1.0597,
-            "se": 0.5843
+            "value": 1.1115,
+            "se": 0.5892
         }
     },
     {
         "_id": "Script4",
         "rankType": "to rank",
         "ability": {
-            "value": -0.73,
-            "se": 0.5306
+            "value": -0.6843,
+            "se": 0.5375
         }
     },
     {
         "_id": "Script5",
         "rankType": "to rank",
         "ability": {
-            "value": 2.1972,
-            "se": 0.7561
+            "value": 2.2695,
+            "se": 0.7591
         }
     },
     {
         "_id": "Script6",
         "rankType": "to rank",
         "ability": {
-            "value": 0.6552,
-            "se": 0.5447
+            "value": 0.6986,
+            "se": 0.5486
         }
     },
     {
         "_id": "Script7",
         "rankType": "to rank",
         "ability": {
-            "value": 0.8011,
-            "se": 0.545
+            "value": 0.8472,
+            "se": 0.5489
         }
     },
     {
         "_id": "Script8",
         "rankType": "to rank",
         "ability": {
-            "value": -1.2753,
-            "se": 0.5756
+            "value": -1.2488,
+            "se": 0.5784
         }
     },
     {
         "_id": "Script9",
         "rankType": "to rank",
         "ability": {
-            "value": -0.4705,
-            "se": 0.5278
+            "value": -0.4466,
+            "se": 0.5291
         }
     },
     {
         "_id": "Script10",
         "rankType": "to rank",
         "ability": {
-            "value": -0.3904,
-            "se": 0.5362
+            "value": -0.3567,
+            "se": 0.5394
         }
     },
     {
         "_id": "Script11",
         "rankType": "to rank",
         "ability": {
-            "value": 0.7008,
-            "se": 0.5401
+            "value": 0.7468,
+            "se": 0.544
         }
     },
     {
         "_id": "Script12",
         "rankType": "to rank",
         "ability": {
-            "value": 1.3797,
-            "se": 0.6216
+            "value": 1.4377,
+            "se": 0.6267
         }
     },
     {
         "_id": "Script13",
         "rankType": "to rank",
         "ability": {
-            "value": -0.4903,
-            "se": 0.5274
+            "value": -0.4589,
+            "se": 0.5303
         }
     },
     {
         "_id": "Script14",
         "rankType": "to rank",
         "ability": {
-            "value": -0.0756,
-            "se": 0.5288
+            "value": -0.0391,
+            "se": 0.5322
         }
     },
     {
         "_id": "Script15",
         "rankType": "to rank",
         "ability": {
-            "value": -0.0694,
-            "se": 0.5273
+            "value": -0.033,
+            "se": 0.5307
         }
     },
     {
         "_id": "Script16",
         "rankType": "to rank",
         "ability": {
-            "value": -1.237,
-            "se": 0.5775
+            "value": -1.2099,
+            "se": 0.5803
         }
     },
     {
         "_id": "Script17",
         "rankType": "to rank",
         "ability": {
-            "value": 1.5729,
-            "se": 0.6069
+            "value": 1.6317,
+            "se": 0.6106
         }
     },
     {
         "_id": "Script18",
         "rankType": "to rank",
         "ability": {
-            "value": -0.6571,
-            "se": 0.5424
+            "value": -0.6275,
+            "se": 0.5454
         }
     },
     {
         "_id": "Script19",
         "rankType": "to rank",
         "ability": {
-            "value": -1.0265,
-            "se": 0.5459
+            "value": -0.9985,
+            "se": 0.5486
         }
     },
     {
         "_id": "Script20",
         "rankType": "to rank",
         "ability": {
-            "value": 0.3154,
-            "se": 0.5337
+            "value": 0.3557,
+            "se": 0.5375
         }
     },
     {
         "_id": "Script21",
         "rankType": "to rank",
         "ability": {
-            "value": -0.6428,
-            "se": 0.5373
+            "value": -0.6119,
+            "se": 0.5402
         }
     },
     {
         "_id": "Script22",
         "rankType": "to rank",
         "ability": {
-            "value": -2.8708,
-            "se": 0.9261
+            "value": -2.8473,
+            "se": 0.9313
         }
     }
 ]

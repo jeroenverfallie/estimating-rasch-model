@@ -3,8 +3,8 @@
         "_id": "Songtekst 15",
         "rankType": "to rank",
         "ability": {
-            "value": -0.0711,
-            "se": 0.3916
+            "value": -0.0539,
+            "se": 0.3917
         },
         "compared": {
 
@@ -14,8 +14,8 @@
         "_id": "Songtekst 13",
         "rankType": "to rank",
         "ability": {
-            "value": -0.1787,
-            "se": 0.3995
+            "value": -0.1613,
+            "se": 0.3996
         },
         "compared": {
 
@@ -25,8 +25,8 @@
         "_id": "Songtekst 1",
         "rankType": "to rank",
         "ability": {
-            "value": 0.6892,
-            "se": 0.4071
+            "value": 0.7062,
+            "se": 0.4067
         },
         "compared": {
 
@@ -36,8 +36,8 @@
         "_id": "Songtekst 20",
         "rankType": "to rank",
         "ability": {
-            "value": 0.5299,
-            "se": 0.3998
+            "value": 0.5468,
+            "se": 0.3995
         },
         "compared": {
 
@@ -47,8 +47,8 @@
         "_id": "Songtekst 2",
         "rankType": "to rank",
         "ability": {
-            "value": -0.9649,
-            "se": 0.4311
+            "value": -0.9443,
+            "se": 0.4318
         },
         "compared": {
 
@@ -58,8 +58,8 @@
         "_id": "Songtekst 12",
         "rankType": "to rank",
         "ability": {
-            "value": 0.561,
-            "se": 0.4014
+            "value": 0.5779,
+            "se": 0.4011
         },
         "compared": {
 
@@ -69,8 +69,8 @@
         "_id": "Songtekst 8",
         "rankType": "to rank",
         "ability": {
-            "value": -0.1669,
-            "se": 0.3987
+            "value": -0.1496,
+            "se": 0.3988
         },
         "compared": {
 
@@ -80,8 +80,8 @@
         "_id": "Songtekst 6",
         "rankType": "to rank",
         "ability": {
-            "value": 1.511,
-            "se": 0.4968
+            "value": 1.5293,
+            "se": 0.4958
         },
         "compared": {
 
@@ -91,8 +91,8 @@
         "_id": "Songtekst 23",
         "rankType": "to rank",
         "ability": {
-            "value": -0.2296,
-            "se": 0.392
+            "value": -0.2124,
+            "se": 0.3921
         },
         "compared": {
 
@@ -102,8 +102,8 @@
         "_id": "Songtekst 19",
         "rankType": "to rank",
         "ability": {
-            "value": -0.8476,
-            "se": 0.417
+            "value": -0.8304,
+            "se": 0.4174
         },
         "compared": {
 
@@ -113,8 +113,8 @@
         "_id": "Songtekst 16",
         "rankType": "to rank",
         "ability": {
-            "value": 0.1976,
-            "se": 0.3917
+            "value": 0.2147,
+            "se": 0.3916
         },
         "compared": {
 
@@ -124,8 +124,8 @@
         "_id": "Songtekst 25",
         "rankType": "to rank",
         "ability": {
-            "value": 1.1235,
-            "se": 0.4505
+            "value": 1.1405,
+            "se": 0.4499
         },
         "compared": {
 
@@ -135,8 +135,8 @@
         "_id": "Songtekst 9",
         "rankType": "to rank",
         "ability": {
-            "value": -0.2406,
-            "se": 0.3992
+            "value": -0.2231,
+            "se": 0.3993
         },
         "compared": {
 
@@ -146,8 +146,8 @@
         "_id": "Songtekst 4",
         "rankType": "to rank",
         "ability": {
-            "value": 0.2809,
-            "se": 0.4003
+            "value": 0.2982,
+            "se": 0.4001
         },
         "compared": {
 
@@ -157,8 +157,8 @@
         "_id": "Songtekst 26",
         "rankType": "to rank",
         "ability": {
-            "value": -0.8338,
-            "se": 0.4179
+            "value": -0.8133,
+            "se": 0.4185
         },
         "compared": {
 
@@ -168,8 +168,8 @@
         "_id": "Songtekst 22",
         "rankType": "to rank",
         "ability": {
-            "value": -1.1825,
-            "se": 0.449
+            "value": -1.1654,
+            "se": 0.4496
         },
         "compared": {
 
@@ -179,8 +179,8 @@
         "_id": "Songtekst 11",
         "rankType": "to rank",
         "ability": {
-            "value": -0.5768,
-            "se": 0.4118
+            "value": -0.5595,
+            "se": 0.4121
         },
         "compared": {
 
@@ -190,8 +190,8 @@
         "_id": "Songtekst 7",
         "rankType": "to rank",
         "ability": {
-            "value": 0.5026,
-            "se": 0.4005
+            "value": 0.5197,
+            "se": 0.4002
         },
         "compared": {
 
@@ -201,8 +201,8 @@
         "_id": "Songtekst 3",
         "rankType": "to rank",
         "ability": {
-            "value": 0.6853,
-            "se": 0.4095
+            "value": 0.7023,
+            "se": 0.4091
         },
         "compared": {
 
@@ -212,8 +212,8 @@
         "_id": "Songtekst 21",
         "rankType": "to rank",
         "ability": {
-            "value": -0.263,
-            "se": 0.3921
+            "value": -0.2459,
+            "se": 0.3923
         },
         "compared": {
 
@@ -223,8 +223,8 @@
         "_id": "Songtekst 17",
         "rankType": "to rank",
         "ability": {
-            "value": 0.3763,
-            "se": 0.4087
+            "value": 0.3937,
+            "se": 0.4084
         },
         "compared": {
 
@@ -234,8 +234,8 @@
         "_id": "Songtekst 5",
         "rankType": "to rank",
         "ability": {
-            "value": -0.5804,
-            "se": 0.4129
+            "value": -0.5111,
+            "se": 0.4187
         },
         "compared": {
 
@@ -245,8 +245,8 @@
         "_id": "Songtekst 14",
         "rankType": "to rank",
         "ability": {
-            "value": -1.1794,
-            "se": 0.449
+            "value": -1.1623,
+            "se": 0.4497
         },
         "compared": {
 
@@ -256,8 +256,8 @@
         "_id": "Songtekst 10",
         "rankType": "to rank",
         "ability": {
-            "value": -0.1133,
-            "se": 0.3909
+            "value": -0.0944,
+            "se": 0.3908
         },
         "compared": {
 
@@ -267,8 +267,8 @@
         "_id": "Songtekst 24",
         "rankType": "to rank",
         "ability": {
-            "value": 0.195,
-            "se": 0.4026
+            "value": 0.3216,
+            "se": 0.4127
         },
         "compared": {
 
@@ -278,7 +278,7 @@
         "_id": "Songtekst 18",
         "rankType": "to rank",
         "ability": {
-            "value": 0.0938,
+            "value": 0.111,
             "se": 0.3918
         },
         "compared": {
