@@ -1,6 +1,6 @@
 'use strict';
 var Benchmark = require( 'benchmark' );
-var fixtures = require( '../test/fixtures' );
+var fixtures = require( '../tests/fixtures' );
 var subject = require( '../lib/estimation' );
 var suite = new Benchmark.Suite;
 
