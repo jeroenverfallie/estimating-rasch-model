@@ -27,8 +27,8 @@ describe('regresessions', function () {
                 ability: rep.ability.value.toFixed(3),
                 se: rep.ability.se.toFixed(3)
             }).to.eql({
-                ability: "4.240",
-                se: "20.614"
+                ability: "-0.960",
+                se: "2.182"
             });
         });
         it('should not recalculate representation "0607"', function () {
@@ -37,8 +37,8 @@ describe('regresessions', function () {
             const rep = _.find(fx.representations, function (r) {
                 return r._id === '0607'
             });
-            expect(rep.ability.value.toFixed(3)).to.equal("4.240");
-            expect(rep.ability.se.toFixed(3)).to.equal("20.614");
+            expect(rep.ability.value.toFixed(3)).to.equal("-0.960");
+            expect(rep.ability.se.toFixed(3)).to.equal("2.182");
         });
     });
 });
