@@ -1,0 +1,210 @@
+{
+  "representations": [
+    {
+      "_id": "0210",
+      "ability": {
+        "value": null,
+        "se": null
+      },
+      "compared": [],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0307",
+      "ability": {
+        "value": null,
+        "se": null
+      },
+      "compared": [],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0310",
+      "ability": {
+        "value": null,
+        "se": null
+      },
+      "compared": ["0105"],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0404",
+      "ability": {
+        "value": -5.388,
+        "se": 13.593
+      },
+      "compared": [
+        "0911"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0512",
+      "ability": {
+        "value": -5.395,
+        "se": 13.599
+      },
+      "compared": [
+        "0912"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0607",
+      "ability": {
+        "value": -10,
+        "se": 60.128
+      },
+      "compared": [
+        "0817"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0614",
+      "ability": {
+        "value": -5.388,
+        "se": 13.593
+      },
+      "compared": [
+        "0911"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0703",
+      "ability": {
+        "value": null,
+        "se": null
+      },
+      "compared": [],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0807",
+      "ability": {
+        "value": -10,
+        "se": 57.166
+      },
+      "compared": [
+        "0105"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0815",
+      "ability": {
+        "value": -5.388,
+        "se": 13.593
+      },
+      "compared": [
+        "0911"
+      ],
+      "rankType": "to rank"
+    },
+    {
+      "_id": "0105",
+      "rankType": "ranked",
+      "ability": {
+        "value": -1.9087,
+        "se": 0.8674
+      }
+    },
+    {
+      "_id": "0911",
+      "rankType": "ranked",
+      "ability": {
+        "value": -0.1799,
+        "se": 0.9233
+      }
+    },
+    {
+      "_id": "0912",
+      "rankType": "ranked",
+      "ability": {
+        "value": -0.1856,
+        "se": 0.8523
+      }
+    },
+    {
+      "_id": "0817",
+      "rankType": "ranked",
+      "ability": {
+        "value": -1.8076,
+        "se": 0.8416
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "_rid": 1811,
+      "representations": {
+        "a": "0105",
+        "b": "0807"
+      },
+      "data": {
+        "selection": "0105"
+      }
+    },
+    {
+      "_rid": 1812,
+      "representations": {
+        "a": "0614",
+        "b": "0911"
+      },
+      "data": {
+        "selection": "0911"
+      }
+    },
+    {
+      "_rid": 1813,
+      "representations": {
+        "a": "0512",
+        "b": "0912"
+      },
+      "data": {
+        "selection": "0912"
+      }
+    },
+    {
+      "_rid": 1814,
+      "representations": {
+        "a": "0911",
+        "b": "0404"
+      },
+      "data": {
+        "selection": null
+      }
+    },
+    {
+      "_rid": 1815,
+      "representations": {
+        "a": "0815",
+        "b": "0911"
+      },
+      "data": {
+        "selection": "0911"
+      }
+    },
+    {
+      "_rid": 1816,
+      "representations": {
+        "a": "0817",
+        "b": "0607"
+      },
+      "data": {
+        "selection": "0607"
+      }
+    },
+    {
+      "_rid": 1817,
+      "representations": {
+        "a": "0105",
+        "b": "0310"
+      },
+      "data": {
+        "selection": "0105"
+      }
+    }
+  ]
+}
