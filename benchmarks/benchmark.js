@@ -7,8 +7,8 @@ const moment = require('moment');
 
 console.log(`Benchmarked on ${moment()} for ${process.env.COMMIT}`);
 
-suite.add( 'estimateCJ', function(){
-    subject.estimateCJ( fixtures.Comparison, fixtures.Representation );
+suite.add( 'estimate', function(){
+    subject.estimate( fixtures.realComparisons, fixtures.realRepresentations);
   } )
   .on( 'error', function( event ){
     console.log( 'ERROR', event.target.error );
