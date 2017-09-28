@@ -12,9 +12,7 @@ Our module was originally based on the code of [NoMoreMarking ltd.](https://gith
 
 You can run the unit tests with
 
-```
-$ yarn test
-```
+    $ yarn test
 
 [npm-url]: https://npmjs.org/package/estimating-rasch-model
 
@@ -51,7 +49,7 @@ Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 -   `itemA` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "A" item
 -   `itemB` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "B" item
--   `selected` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** the ID of the selected item
+-   `selected` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)??** the ID of the selected item
 
 ### ValueObject
 
@@ -73,6 +71,6 @@ Estimates the items featured in comparisons
 **Parameters**
 
 -   `comparisons` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Comparison](#comparison)>** 
--   `items` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)>** 
+-   `items` **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)> | {})** An Array or a map of [Item](#item)
 
-Returns **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[ValueObject](#valueobject)>** 
+Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[ValueObject](#valueobject)> | {})** Anr Array or a map of [Item](#item) (depends on the type of `items`)

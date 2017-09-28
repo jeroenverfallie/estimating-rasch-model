@@ -163,5 +163,15 @@ describe('estimating rasch model', function () {
         expect(actual).to.eql(expected);
       });
     });
+    describe('map of items', function () {
+      const expected = convertRepresentations(noRankedResults).reduce(mapToLookupHash, {});
+      const representations = convertRepresentations(uncomparedRepresentations).reduce(mapToLookupHash, {});
+      const comparisons = convertComparisons(noRankedComparisons);
+      it('should accept them and output in the same type', function () {
+        const actual = _.mapValues(subject.estimate(comparisons, representations), prepResult);
+        expect(actual).to.eql(expected);
+      });
+
+    })
   });
 });
