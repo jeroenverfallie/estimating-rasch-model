@@ -1,11 +1,14 @@
 'use strict';
-var Benchmark = require( 'benchmark' );
-var fixtures = require( '../tests/fixtures' );
-var subject = require( '../lib/estimation' );
-var suite = new Benchmark.Suite;
+const Benchmark = require( 'benchmark' );
+const fixtures = require( '../tests/fixtures' );
+const subject = require( '../lib/estimation' );
+const suite = new Benchmark.Suite;
+const moment = require('moment');
+
+console.log(`Benchmarked on ${moment()} for ${process.env.COMMIT}`);
 
 suite.add( 'estimateCJ', function(){
-    subject.estimateCJ( fixtures.comparisons, fixtures.representations );
+    subject.estimateCJ( fixtures.Comparison, fixtures.Representation );
   } )
   .on( 'error', function( event ){
     console.log( 'ERROR', event.target.error );
