@@ -71,7 +71,7 @@ function prepResult(o) {
 }
 
 
-describe.only('estimating rasch model', function () {
+describe('estimating rasch model', function () {
   describe("spec file", function () {
     it("must be found", function () {
       expect(true).to.be.true();
