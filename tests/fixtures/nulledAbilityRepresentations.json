@@ -1,0 +1,701 @@
+[
+  {
+    "_id": "Script1",
+    "rankType": "to rank",
+    "compared": [
+      "Script22",
+      "Script4",
+      "Script6",
+      "Script15",
+      "Script19",
+      "Script21",
+      "Script14",
+      "Script5",
+      "Script3",
+      "Script10",
+      "Script11",
+      "Script13",
+      "Script20",
+      "Script18",
+      "Script8",
+      "Script12",
+      "Script16",
+      "Script7",
+      "Script17"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script2",
+    "rankType": "to rank",
+    "compared": [
+      "Script5",
+      "Script7",
+      "Script9",
+      "Script13",
+      "Script16",
+      "Script8",
+      "Script6",
+      "Script4",
+      "Script21",
+      "Script10",
+      "Script18",
+      "Script14",
+      "Script20",
+      "Script12",
+      "Script19",
+      "Script17",
+      "Script11",
+      "Script3",
+      "Script15"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script3",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script17",
+      "Script11",
+      "Script21",
+      "Script10",
+      "Script18",
+      "Script5",
+      "Script15",
+      "Script1",
+      "Script8",
+      "Script14",
+      "Script4",
+      "Script6",
+      "Script16",
+      "Script19",
+      "Script22",
+      "Script13",
+      "Script9",
+      "Script2",
+      "Script7"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script4",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script1",
+      "Script16",
+      "Script11",
+      "Script19",
+      "Script6",
+      "Script15",
+      "Script10",
+      "Script2",
+      "Script21",
+      "Script7",
+      "Script20",
+      "Script3",
+      "Script9",
+      "Script17",
+      "Script13",
+      "Script12",
+      "Script5",
+      "Script22",
+      "Script8",
+      "Script14"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script5",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script2",
+      "Script19",
+      "Script10",
+      "Script18",
+      "Script14",
+      "Script3",
+      "Script1",
+      "Script20",
+      "Script17",
+      "Script8",
+      "Script16",
+      "Script15",
+      "Script11",
+      "Script22",
+      "Script21",
+      "Script4",
+      "Script12",
+      "Script13",
+      "Script9"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script6",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script1",
+      "Script13",
+      "Script4",
+      "Script8",
+      "Script14",
+      "Script18",
+      "Script2",
+      "Script22",
+      "Script15",
+      "Script17",
+      "Script20",
+      "Script3",
+      "Script9",
+      "Script21",
+      "Script7",
+      "Script19",
+      "Script10",
+      "Script11",
+      "Script16"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script7",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script22",
+      "Script15",
+      "Script2",
+      "Script10",
+      "Script12",
+      "Script20",
+      "Script16",
+      "Script11",
+      "Script4",
+      "Script19",
+      "Script14",
+      "Script17",
+      "Script13",
+      "Script18",
+      "Script6",
+      "Script9",
+      "Script1",
+      "Script3",
+      "Script21"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script8",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script17",
+      "Script16",
+      "Script6",
+      "Script18",
+      "Script20",
+      "Script2",
+      "Script22",
+      "Script12",
+      "Script3",
+      "Script5",
+      "Script19",
+      "Script21",
+      "Script14",
+      "Script1",
+      "Script9",
+      "Script10",
+      "Script13",
+      "Script4",
+      "Script11"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script9",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script21",
+      "Script17",
+      "Script14",
+      "Script2",
+      "Script20",
+      "Script15",
+      "Script11",
+      "Script13",
+      "Script19",
+      "Script12",
+      "Script4",
+      "Script16",
+      "Script6",
+      "Script8",
+      "Script18",
+      "Script7",
+      "Script3",
+      "Script22",
+      "Script5"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script10",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script5",
+      "Script16",
+      "Script7",
+      "Script3",
+      "Script13",
+      "Script17",
+      "Script4",
+      "Script19",
+      "Script1",
+      "Script2",
+      "Script11",
+      "Script12",
+      "Script18",
+      "Script21",
+      "Script14",
+      "Script8",
+      "Script6",
+      "Script20",
+      "Script22"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script11",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script18",
+      "Script4",
+      "Script3",
+      "Script22",
+      "Script19",
+      "Script12",
+      "Script9",
+      "Script7",
+      "Script20",
+      "Script1",
+      "Script10",
+      "Script5",
+      "Script17",
+      "Script15",
+      "Script13",
+      "Script14",
+      "Script6",
+      "Script2",
+      "Script8"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script12",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script14",
+      "Script15",
+      "Script7",
+      "Script20",
+      "Script21",
+      "Script11",
+      "Script18",
+      "Script8",
+      "Script22",
+      "Script9",
+      "Script17",
+      "Script10",
+      "Script13",
+      "Script2",
+      "Script1",
+      "Script4",
+      "Script5",
+      "Script16",
+      "Script19"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script13",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script6",
+      "Script21",
+      "Script16",
+      "Script2",
+      "Script10",
+      "Script22",
+      "Script19",
+      "Script9",
+      "Script18",
+      "Script15",
+      "Script1",
+      "Script7",
+      "Script12",
+      "Script4",
+      "Script11",
+      "Script3",
+      "Script8",
+      "Script5",
+      "Script20"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script14",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script12",
+      "Script9",
+      "Script22",
+      "Script6",
+      "Script5",
+      "Script1",
+      "Script20",
+      "Script21",
+      "Script16",
+      "Script3",
+      "Script7",
+      "Script2",
+      "Script8",
+      "Script15",
+      "Script10",
+      "Script17",
+      "Script11",
+      "Script18",
+      "Script4"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script15",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script7",
+      "Script1",
+      "Script12",
+      "Script20",
+      "Script4",
+      "Script9",
+      "Script3",
+      "Script16",
+      "Script6",
+      "Script13",
+      "Script5",
+      "Script19",
+      "Script11",
+      "Script14",
+      "Script18",
+      "Script22",
+      "Script21",
+      "Script2",
+      "Script17"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script16",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script4",
+      "Script10",
+      "Script8",
+      "Script13",
+      "Script2",
+      "Script19",
+      "Script7",
+      "Script15",
+      "Script14",
+      "Script22",
+      "Script5",
+      "Script9",
+      "Script3",
+      "Script17",
+      "Script20",
+      "Script18",
+      "Script1",
+      "Script12",
+      "Script6"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script17",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script3",
+      "Script8",
+      "Script9",
+      "Script20",
+      "Script19",
+      "Script10",
+      "Script21",
+      "Script18",
+      "Script5",
+      "Script6",
+      "Script12",
+      "Script7",
+      "Script4",
+      "Script11",
+      "Script16",
+      "Script14",
+      "Script2",
+      "Script1",
+      "Script15"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script18",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script11",
+      "Script5",
+      "Script8",
+      "Script3",
+      "Script22",
+      "Script6",
+      "Script12",
+      "Script17",
+      "Script13",
+      "Script21",
+      "Script2",
+      "Script1",
+      "Script10",
+      "Script7",
+      "Script9",
+      "Script15",
+      "Script16",
+      "Script14",
+      "Script19"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script19",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script5",
+      "Script4",
+      "Script1",
+      "Script17",
+      "Script11",
+      "Script16",
+      "Script13",
+      "Script10",
+      "Script9",
+      "Script7",
+      "Script8",
+      "Script22",
+      "Script15",
+      "Script3",
+      "Script2",
+      "Script6",
+      "Script20",
+      "Script21",
+      "Script12",
+      "Script18"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script20",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script17",
+      "Script15",
+      "Script9",
+      "Script12",
+      "Script8",
+      "Script7",
+      "Script14",
+      "Script5",
+      "Script11",
+      "Script4",
+      "Script6",
+      "Script1",
+      "Script2",
+      "Script22",
+      "Script16",
+      "Script21",
+      "Script19",
+      "Script10",
+      "Script13"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script21",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script9",
+      "Script13",
+      "Script3",
+      "Script1",
+      "Script12",
+      "Script17",
+      "Script4",
+      "Script14",
+      "Script2",
+      "Script18",
+      "Script22",
+      "Script8",
+      "Script10",
+      "Script6",
+      "Script5",
+      "Script20",
+      "Script15",
+      "Script19",
+      "Script7"
+    ],
+    "closeTo": [
+
+    ]
+  },
+  {
+    "_id": "Script22",
+    "rankType": "to rank",
+    "ability": {
+      "value": 0,
+      "se": 0
+    },
+    "compared": [
+      "Script1",
+      "Script7",
+      "Script14",
+      "Script11",
+      "Script18",
+      "Script13",
+      "Script8",
+      "Script6",
+      "Script12",
+      "Script16",
+      "Script21",
+      "Script19",
+      "Script5",
+      "Script20",
+      "Script3",
+      "Script15",
+      "Script4",
+      "Script9",
+      "Script10"
+    ],
+    "closeTo": [
+
+    ]
+  }
+]
+
