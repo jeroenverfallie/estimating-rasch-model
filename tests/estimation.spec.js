@@ -10,9 +10,11 @@ const {
   noRankedComparisons,
   noRankedRepresentations,
   noRankedResults,
+  nulledAbilityRepresentations,
   realComparisons,
   realRepresentations,
-  realResults
+  realResults,
+  uncomparedRepresentations
 } = require('./fixtures');
 
 /**
@@ -133,6 +135,28 @@ describe('estimating rasch model', function () {
       const representations = convertRepresentations(realRepresentations);
       const comparisons = convertComparisons(realComparisons);
       it('should equal R generated results', function () {
+        const actual = subject.estimate(comparisons, representations)
+            .map(prepResult)
+            .reduce(mapToLookupHash, {});
+        expect(actual).to.eql(expected);
+      });
+    });
+    describe('nulled abilities', function () {
+      const expected = convertRepresentations(noRankedResults).reduce(mapToLookupHash, {});
+      const representations = convertRepresentations(nulledAbilityRepresentations);
+      const comparisons = convertComparisons(noRankedComparisons);
+      it('should equal R generated results', function () {
+        const actual = subject.estimate(comparisons, representations)
+            .map(prepResult)
+            .reduce(mapToLookupHash, {});
+        expect(actual).to.eql(expected);
+      });
+    });
+    describe('uncompared representations', function () {
+      const expected = convertRepresentations(noRankedResults).reduce(mapToLookupHash, {});
+      const representations = convertRepresentations(uncomparedRepresentations);
+      const comparisons = convertComparisons(noRankedComparisons);
+      it('should ignore them', function () {
         const actual = subject.estimate(comparisons, representations)
             .map(prepResult)
             .reduce(mapToLookupHash, {});
