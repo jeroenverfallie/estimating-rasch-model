@@ -1,6 +1,6 @@
 {
   "name": "estimating-rasch-model",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Estimate the Rasch/Bradley-Terry-Luce parameters using conditional maximum likelihood",
   "main": "lib/estimation.js",
   "scripts": {
