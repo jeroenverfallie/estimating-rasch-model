@@ -47,8 +47,8 @@ Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 **Properties**
 
--   `itemA` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "A" item
--   `itemB` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "B" item
+-   `a` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "A" item
+-   `b` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "B" item
 -   `selected` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)??** the ID of the selected item
 
 ### ValueObject
@@ -73,4 +73,4 @@ Estimates the items featured in comparisons
 -   `comparisons` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Comparison](#comparison)>** 
 -   `items` **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)> | {})** An Array or a map of [Item](#item)
 
-Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[ValueObject](#valueobject)> | {})** Anr Array or a map of [Item](#item) (depends on the type of `items`)
+Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[ValueObject](#valueobject)> | {})** An Array or a map of [Item](#item) (reflects the type of parameter `items`)
