@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/d-pac/estimating-rasch-model",
   "dependencies": {
-    "d-pac.functions": "^1.4.1",
+    "d-pac.functions": "^2.0.0",
     "lodash": "^4.0.1"
   },
   "files": [
