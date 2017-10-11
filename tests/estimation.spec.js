@@ -50,8 +50,8 @@ function convertComparisons(comparisons) {
   return comparisons.map((comparison) => {
     return {
       selected: _.get(comparison, ["data", "selection"], null),
-      itemA: comparison.representations.a,
-      itemB: comparison.representations.b
+      a: comparison.representations.a,
+      b: comparison.representations.b
     };
   });
 }
