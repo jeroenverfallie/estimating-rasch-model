@@ -1,6 +1,6 @@
 'use strict';
 const Benchmark = require( 'benchmark' );
-const fixtures = require( '../tests/fixtures' );
+const fixtures = require( '../test/fixtures' );
 const subject = require( '../lib/estimation' );
 const suite = new Benchmark.Suite;
 const moment = require('moment');
@@ -8,7 +8,7 @@ const moment = require('moment');
 console.log(`Benchmarked on ${moment()} for ${process.env.COMMIT}`);
 
 suite.add( 'estimate', function(){
-    subject.estimate( fixtures.realComparisons, fixtures.realRepresentations);
+    subject.estimate( {comparisons:fixtures.realComparisons, items:fixtures.realRepresentations});
   } )
   .on( 'error', function( event ){
     console.log( 'ERROR', event.target.error );

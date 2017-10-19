@@ -4,7 +4,8 @@
   "description": "Estimate the Rasch/Bradley-Terry-Luce parameters using conditional maximum likelihood",
   "main": "lib/estimation.js",
   "scripts": {
-    "test": "mocha tests",
+    "test-cov": "istanbul cover _mocha",
+    "test": "mocha",
     "benchmark": "COMMIT=`git log -1 --format=format:%H` node benchmarks/benchmark.js >> benchmarks/benchmarks.log",
     "docs": "documentation readme lib -f md --section=API"
   },
@@ -28,6 +29,7 @@
   "devDependencies": {
     "benchmark": "^2.1.0",
     "documentation": "^5.3.2",
+    "istanbul": "^0.4.5",
     "mocha": "^3.1.0",
     "moment": "^2.18.1",
     "must": "^0.13.1",
