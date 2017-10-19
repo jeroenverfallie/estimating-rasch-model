@@ -1,4 +1,4 @@
- [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+ [![NPM version][npm-image]][npm-url]
 
 # Conditional estimation of Rasch model
 
@@ -17,14 +17,6 @@ You can run the unit tests with
 [npm-url]: https://npmjs.org/package/estimating-rasch-model
 
 [npm-image]: https://badge.fury.io/js/estimating-rasch-model.svg
-
-[travis-url]: https://travis-ci.org/d-pac/estimating-rasch-model
-
-[travis-image]: https://travis-ci.org/d-pac/estimating-rasch-model.svg?branch=master
-
-[daviddm-url]: https://david-dm.org/d-pac/estimating-rasch-model.svg?theme=shields.io
-
-[daviddm-image]: https://david-dm.org/d-pac/estimating-rasch-model
 
 ## API
 
@@ -51,26 +43,14 @@ Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 -   `b` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the "B" item
 -   `selected` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)??** the ID of the selected item
 
-### ValueObject
-
-Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-
-**Properties**
-
--   `id` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** the ID of the corresponding item
--   `selectedNum` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** the number of times the item has been selected
--   `comparisonNum` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** the number of times the item has been compared
--   `ranked` **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** whether or not the item is ranked. Only unranked items (i.e. ranked: `false`) are estimated
--   `ability` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)??** the ability
--   `se` **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)??** standard error
-
 ### estimate
 
 Estimates the items featured in comparisons
 
 **Parameters**
 
--   `comparisons` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Comparison](#comparison)>** 
--   `items` **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)> | {})** An Array or a map of [Item](#item)
+-   `payload` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+    -   `payload.comparisons` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Comparison](#comparison)>** 
+    -   `payload.items` **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)> | {})** An Array or a map of [Item](#item)
 
-Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[ValueObject](#valueobject)> | {})** An Array or a map of [Item](#item) (reflects the type of parameter `items`)
+Returns **([Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Item](#item)> | {})** An Array or a map of [Item](#item) (reflects the type of parameter `items`)

@@ -90,7 +90,7 @@ describe('estimating rasch model', function () {
 
 
       it('should equal R generated results if all data are provided at once', function () {
-        const actual = subject.estimate(comparisons, representations)
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -100,8 +100,8 @@ describe('estimating rasch model', function () {
       it('should equal R generated results if estimates were first based on a part of the data', function () {
 
         const firstComparisons = _.sampleSize(comparisons, comparisons.length / 2);
-        subject.estimate(firstComparisons, representations);
-        const actual = subject.estimate(comparisons, representations)
+        subject.estimate({comparisons:firstComparisons, items:representations});
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -115,7 +115,7 @@ describe('estimating rasch model', function () {
       const comparisons = convertComparisons(noRankedComparisons);
 
       it('should equal R generated results if all data are provided at once', function () {
-        const actual = subject.estimate(comparisons, representations)
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -123,8 +123,8 @@ describe('estimating rasch model', function () {
 
       it('should equal R generated results if estimates were first based on a part of the data', function () {
         const firstComparisons = _.sampleSize(comparisons, comparisons.length / 2);
-        subject.estimate(firstComparisons, representations);
-        const actual = subject.estimate(comparisons, representations)
+        subject.estimate({comparisons:firstComparisons, items:representations});
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -135,7 +135,7 @@ describe('estimating rasch model', function () {
       const representations = convertRepresentations(realRepresentations);
       const comparisons = convertComparisons(realComparisons);
       it('should equal R generated results', function () {
-        const actual = subject.estimate(comparisons, representations)
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -146,7 +146,7 @@ describe('estimating rasch model', function () {
       const representations = convertRepresentations(nulledAbilityRepresentations);
       const comparisons = convertComparisons(noRankedComparisons);
       it('should equal R generated results', function () {
-        const actual = subject.estimate(comparisons, representations)
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -157,7 +157,7 @@ describe('estimating rasch model', function () {
       const representations = convertRepresentations(uncomparedRepresentations);
       const comparisons = convertComparisons(noRankedComparisons);
       it('should ignore them', function () {
-        const actual = subject.estimate(comparisons, representations)
+        const actual = subject.estimate({comparisons:comparisons, items:representations})
             .map(prepResult)
             .reduce(mapToLookupHash, {});
         expect(actual).to.eql(expected);
@@ -168,7 +168,7 @@ describe('estimating rasch model', function () {
       const representations = convertRepresentations(uncomparedRepresentations).reduce(mapToLookupHash, {});
       const comparisons = convertComparisons(noRankedComparisons);
       it('should accept them and output in the same type', function () {
-        const actual = _.mapValues(subject.estimate(comparisons, representations), prepResult);
+        const actual = _.mapValues(subject.estimate({comparisons:comparisons, items:representations}), prepResult);
         expect(actual).to.eql(expected);
       });
 
