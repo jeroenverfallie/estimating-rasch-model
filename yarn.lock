@@ -1154,8 +1154,8 @@ cryptiles@2.x.x:
     boom "2.x.x"
 
 d-pac.functions@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/d-pac.functions/-/d-pac.functions-2.0.0.tgz#72f7568b1414ee620da3e23be6f4e3a8a10f072d"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/d-pac.functions/-/d-pac.functions-2.1.0.tgz#b41764209957711ddc7c3afb49b0ed69e288d31d"
 
 dashdash@^1.12.0:
   version "1.14.1"
